@@ -1,10 +1,5 @@
 # Swarm Intelligence Lab
 
-## v0.6.0 Pheromone System
+## v0.7.0 Route Selection
 
-Features:
-- Colony simulation
-- Food pheromones
-- Evaporation
-- Trail visualization
-- Emergent route foundations
+Ants now bias movement toward pheromone-rich cells, creating emergent routes.
