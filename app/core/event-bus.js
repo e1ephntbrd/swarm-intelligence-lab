@@ -1,1 +1,1 @@
-export class EventBus{}
+export class EventBus{constructor(){this.e={}} on(n,c){(this.e[n]??=[]).push(c)} emit(n,d){(this.e[n]||[]).forEach(f=>f(d))}}

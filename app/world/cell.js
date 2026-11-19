@@ -1,0 +1,1 @@
+export class Cell{constructor(){this.food=0;this.traffic=0;this.obstacle=false}}

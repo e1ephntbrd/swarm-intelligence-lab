@@ -1,1 +1,1 @@
-export class World{}
+export class World{constructor(w=5000,h=5000){this.width=w;this.height=h}}

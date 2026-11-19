@@ -1,0 +1,1 @@
+export const CONFIG={gridSize:32,minZoom:0.2,maxZoom:4};

@@ -1,1 +1,4 @@
-export class Renderer{}
+import {drawGrid} from "./grid-layer.js"; export class Renderer{constructor(canvas,camera){this.canvas=canvas;this.ctx=canvas.getContext("2d");this.camera=camera;this.last=performance.now()} render(t){const fps=Math.round(1000/(t-this.last||16));this.last=t;const c=this.canvas,ctx=this.ctx;ctx.fillStyle="#0f1115";ctx.fillRect(0,0,c.width,c.height);ctx.save();ctx.translate(c.width/2,c.height/2);ctx.scale(this.camera.zoom,this.camera.zoom);ctx.translate(-this.camera.x,-this.camera.y);ctx.strokeStyle="#1d2330";drawGrid(ctx);ctx.restore();document.getElementById("debug").textContent=`FPS:${fps}
+Zoom:${this.camera.zoom.toFixed(2)}
+X:${this.camera.x.toFixed(0)}
+Y:${this.camera.y.toFixed(0)}`; c.onwheel=(e)=>{e.preventDefault();this.camera.zoom=Math.max(.2,Math.min(4,this.camera.zoom*(e.deltaY<0?1.1:.9)))}}}

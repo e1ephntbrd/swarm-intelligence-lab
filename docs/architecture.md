@@ -1,3 +1,3 @@
 # Architecture
 
-World Engine stage.
+Engine -> World -> Renderer -> UI

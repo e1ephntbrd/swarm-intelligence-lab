@@ -1,1 +1,1 @@
-export class GameLoop{}
+export class GameLoop{constructor(update){this.update=update} start(){const loop=(t)=>{this.update(t);requestAnimationFrame(loop)};requestAnimationFrame(loop)}}

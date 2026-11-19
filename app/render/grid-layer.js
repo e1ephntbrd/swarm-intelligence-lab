@@ -1,0 +1,1 @@
+export function drawGrid(ctx){for(let x=-3000;x<=3000;x+=32){ctx.beginPath();ctx.moveTo(x,-3000);ctx.lineTo(x,3000);ctx.stroke()}for(let y=-3000;y<=3000;y+=32){ctx.beginPath();ctx.moveTo(-3000,y);ctx.lineTo(3000,y);ctx.stroke()}}

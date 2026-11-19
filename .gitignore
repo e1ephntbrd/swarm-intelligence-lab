@@ -1,25 +1,8 @@
-# OS
-.DS_Store
-Thumbs.db
-
 # IDE
 .idea/
 .vscode/
-*.swp
-
-# Logs
-*.log
-
-# Build
+node_modules/
 dist/
 build/
-
-# Node
-node_modules/
-
-# Coverage
-coverage/
-
-# Temp
-.tmp/
-tmp/
+*.log
+.DS_Store

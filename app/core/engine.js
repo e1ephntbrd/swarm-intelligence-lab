@@ -1,1 +1,1 @@
-export class Engine{}
+import {Camera} from "./camera.js"; import {Renderer} from "../render/renderer.js"; import {InputManager} from "./input.js"; export class Engine{start(){const c=document.getElementById("world");c.width=innerWidth;c.height=innerHeight;const camera=new Camera();new InputManager(c,camera);const renderer=new Renderer(c,camera);window.addEventListener("resize",()=>{c.width=innerWidth;c.height=innerHeight});const loop=(t)=>{renderer.render(t);requestAnimationFrame(loop)};requestAnimationFrame(loop);}}

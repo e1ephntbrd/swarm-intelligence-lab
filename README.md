@@ -1,13 +1,13 @@
 # Swarm Intelligence Lab
 
-## v0.2.0 World Engine
+## v0.3.0 Engine Refactor & World Model
 
 Features:
-- Docker
-- Nginx
+- Modular engine architecture
+- Event bus
+- Camera module
+- Input manager
+- World model
+- Renderer layers
 - Infinite grid
-- Camera
-- Zoom
-- FPS counter
-- Debug overlay
-- Modular architecture
+- FPS/debug overlay

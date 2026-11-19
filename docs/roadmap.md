@@ -1,4 +1,4 @@
 # Roadmap
 
-v0.3.0 -> Ant Agent
-v0.4.0 -> Pheromone System
+v0.4.0 Ant Agent FSM
+v0.5.0 Colony Simulation

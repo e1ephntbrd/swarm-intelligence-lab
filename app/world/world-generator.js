@@ -1,0 +1,1 @@
+export function generateWorld(){return {seed:Date.now()}}
