@@ -1,2 +1,2 @@
-v0.5.0 Colony Simulation
-v0.6.0 Pheromone System
+v0.7.0 Emergent Routes
+v0.8.0 Interactive World

@@ -1,5 +1,10 @@
 # Swarm Intelligence Lab
 
-## v0.4.0 First Ant Agent
+## v0.6.0 Pheromone System
 
-One ant with finite state machine: SEARCHING -> FOUND_FOOD -> RETURNING_HOME.
+Features:
+- Colony simulation
+- Food pheromones
+- Evaporation
+- Trail visualization
+- Emergent route foundations
