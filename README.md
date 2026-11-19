@@ -10,6 +10,14 @@ Interactive visualization of emergent collective intelligence inspired by real a
 
 This project explores how simple agents can collectively solve routing and optimization problems without centralized control.
 
+## 🎬 Project Preview
+
+<p align="center">
+  <img src="docs/preview/screen.gif" alt="Starcode Cluster Preview" width="800">
+</p>
+
+---
+
 ## Motivation
 
 An individual ant:
