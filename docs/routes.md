@@ -1,3 +1,5 @@
 # Route Selection
 
-Ants sample nearby cells and prefer stronger pheromone concentrations.
+P(i)=tau_i^alpha / sum(tau_j^alpha)
+
+Current implementation uses local pheromone sampling with stochastic steering.
