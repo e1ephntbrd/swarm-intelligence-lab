@@ -1,13 +1,5 @@
 # Swarm Intelligence Lab
 
-## v0.3.0 Engine Refactor & World Model
+## v0.4.0 First Ant Agent
 
-Features:
-- Modular engine architecture
-- Event bus
-- Camera module
-- Input manager
-- World model
-- Renderer layers
-- Infinite grid
-- FPS/debug overlay
+One ant with finite state machine: SEARCHING -> FOUND_FOOD -> RETURNING_HOME.

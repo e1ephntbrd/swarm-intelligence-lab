@@ -1,8 +1,6 @@
-# IDE
-.idea/
-.vscode/
 node_modules/
+.vscode/
+.idea/
 dist/
-build/
 *.log
 .DS_Store
