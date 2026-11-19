@@ -1,5 +1,12 @@
-# Swarm Intelligence Lab
+# Swarm Intelligence Lab v0.9.0
 
-## v0.7.0 Emergent Route Selection
-
-Ants sample nearby pheromone concentrations and bias movement toward stronger trails. This is the first release with route convergence behavior.
+Features:
+- 500 ants
+- Food and Home pheromones
+- Obstacle painting (RMB)
+- Food placement (LMB)
+- Traffic density map
+- Heatmap modes
+- Camera pan (MMB drag)
+- Zoom (wheel)
+- Multiple food sources
